@@ -1,4 +1,4 @@
-package de.iKryxxDEV.furnancesreforged;
+package de.iKryxxDEV.furnacesreforged;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -12,13 +12,13 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(FurnanceReforged.MOD_ID)
-public class FurnanceReforged
+@Mod(FurnaceReforged.MOD_ID)
+public class FurnaceReforged
 {
-    public static final String MOD_ID = "furnancesreforged";
+    public static final String MOD_ID = "furnacesreforged";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public FurnanceReforged()
+    public FurnaceReforged()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
